@@ -3,9 +3,6 @@
 input = input("Tell me your marks: ")
 result = int(input)
 
-if result > 100:
-    print("Invalid marks")
-
 if result < 60:
     print("F")
 
@@ -18,5 +15,5 @@ elif result < 80:
 elif result < 90:
     print("B")
 
-elif result <= 100:
+elif result < 100:
     print("A")

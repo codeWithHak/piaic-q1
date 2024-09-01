@@ -5,12 +5,10 @@ my_pass = len(set_pass)
 
 
 if my_pass < 6:
-    strength = "Weak"
+    print("Weak")
 
 elif my_pass < 11:
-    strength = "Medium"
+    print("Medium")
 
 elif my_pass > 10:
-    strength = "Strong"
-
-print("Password Strength:",strength)    
+    print("Strong")

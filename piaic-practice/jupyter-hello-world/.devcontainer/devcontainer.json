@@ -1,0 +1,10 @@
+{
+    "name": "Python Dev Container",
+    "image": "python:3.11",
+    "postCreateCommand": "pip install notebook",
+    "forwardPorts": [8888],
+    "extensions": [
+      "ms-python.python"
+    ]
+  }
+  

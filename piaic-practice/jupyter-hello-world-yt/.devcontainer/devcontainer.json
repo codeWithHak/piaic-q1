@@ -1,0 +1,8 @@
+{
+    "name": "Jupyter Notebook Dev Container",
+    "image": "python:3.9",
+    "extensions": ["ms-python.python"],
+    "postCreateCommand": "pip install notebook",
+    "forwardPorts": [8888],
+    "remoteUser": "root"
+  }
